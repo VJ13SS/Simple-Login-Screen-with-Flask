@@ -1,3 +1,5 @@
+#Include your HTML files inside a templates directory and the CSS files inside a static directory inside your python directory 
+
 #importing the necessary libraries
 from flask import Flask,render_template, redirect, url_for,request,session,flash
 from flask_sqlalchemy import SQLAlchemy
