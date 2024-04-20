@@ -1,0 +1,18 @@
+{% extends 'Base_FP.html' %}
+{% block content %}
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Chats</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Groups</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/logout">Logout</a>
+  </li>
+</ul>
+<h1>Welcome {{user}} </h1>
+{% endblock %}
